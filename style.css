@@ -1,0 +1,381 @@
+body {
+    background-color: yellow;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .body_sobre_mi {
+      background-color: #2c3e50;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .body_sato {
+      background-image: url(..//pagina_web/imagenes/lp_2.jpg);
+      
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Barra superior */
+    header {
+      background-color: #050505; /* Color de fondo */
+      padding: 15px 30px;
+      position: fixed; /* Se queda arriba siempre */
+      top: 0;
+      width: 98%;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+    /* Logo */
+    .logo {
+      color: #ecf0f1;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* Menú */
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 50px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #ecf0f1;
+      font-size: 16px;
+      transition: color 0.3s ease;
+      margin-right: 50px;
+    }
+
+    ul li a:hover {
+      color: #1abc9c; /* Color al pasar el mouse */
+    }
+
+    .logo img {
+      height: 50px;         /* Alto del logo */
+      width: auto;          /* Mantiene proporción */
+      border-radius: 8px;   /* Bordes redondeados */
+      border: 2px solid #8db3ac; /* Borde de color */
+      padding: 3px;         /* Espacio interno */
+      background-color: #fff; /* Fondo para resaltar */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .logo img:hover {
+      transform: scale(1.1); /* Efecto zoom */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+    }
+
+
+    /* Espaciado para que el contenido no quede debajo de la navbar */
+    .contenido {
+      margin-top: 80px;
+      padding: 20px;
+    }
+
+    .titulo_sato {
+        margin-top: 95px;    /* Separación desde la parte superior */
+        font-family: Arial, sans-serif; /* Tipo de letra */
+      font-size: 36px;               /* Tamaño */
+      color: #2c3e50;                /* Color del texto */
+      text-align: center;            /* Centrado */
+      text-transform: uppercase;     /* Convierte a mayúsculas */
+      letter-spacing: 2px;           /* Espacio entre letras */
+      background: linear-gradient(to right, #a9bc1a, #3498db); /* Fondo degradado */
+      color: rgb(6, 6, 6);                  /* Texto negro */
+      padding: 15px;
+      border-radius: 10px;           /* Bordes redondeados */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra */
+    }
+
+    .contenedor_sato{
+      background-color: transparent;
+      
+      width: 98%;               /* Ancho */
+      height: 1200px;              /* Alto */
+      position: absolute;         /* Para poder moverlo */
+      top: 100px;                  /* Distancia desde arriba */
+      left: 0px;                 /* Distancia desde la izquierda */
+    }
+
+    .contenedor_sato p{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+  font-size: 18px;        /* Tamaño de la letra */
+  color: white;           /* Color del texto */
+  line-height: 1.6;       /* Espaciado entre líneas */
+  background: transparent;/* Fondo transparente */
+  padding: 12px;          /* Espaciado interno */
+  border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+  border-radius: 6px;     /* Bordes redondeados */
+  max-width: 500px;       /* Ancho máximo */
+  cursor: move;           /* Cambia el cursor a "mover" */
+  position: absolute;     /* Permite moverlo */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombrita */
+  left: 60%;               /* Posición desde la izquierda */
+  top: 280px;             /* Posición desde arriba */
+
+    }
+
+  .contenedor_sato img{               /* Posición desde la izquierda */
+  top: 230px;             /* Posición desde arriba */
+  width: 600px;
+  height: 500px;
+  display: block;
+  position: absolute;         /* Para poder moverlo */
+  left: 50px;               /* Posición desde la izquierda */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+  }
+
+  .contenedor_sato img.img2{               /* Posición desde la izquierda */
+  top: 1130px;             /* Posición desde arriba */
+  width: 600px;
+  height: 500px;
+  display: block;
+  position: absolute;         /* Para poder moverlo */
+  left: 57%;               /* Posición desde la izquierda */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+  }
+
+   .contenedor_sato p.p2{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+  font-size: 18px;        /* Tamaño de la letra */
+  color: white;           /* Color del texto */
+  line-height: 1.6;       /* Espaciado entre líneas */
+  background: transparent;/* Fondo transparente */
+  padding: 12px;          /* Espaciado interno */
+  border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+  border-radius: 6px;     /* Bordes redondeados */
+  max-width: 500px;       /* Ancho máximo */
+  cursor: move;           /* Cambia el cursor a "mover" */
+  position: absolute;     /* Permite moverlo */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombrita */
+  left: 60px;               /* Posición desde la izquierda */
+  top: 1150px;             /* Posición desde arriba */
+
+    }
+
+     .contenedor_sato p.p3{
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+  font-size: 18px;        /* Tamaño de la letra */
+  color: white;           /* Color del texto */
+  line-height: 1.6;       /* Espaciado entre líneas */
+  background: transparent;/* Fondo transparente */
+  padding: 12px;          /* Espaciado interno */
+  border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+  border-radius: 6px;     /* Bordes redondeados */
+  max-width: 500px;       /* Ancho máximo */
+  cursor: move;           /* Cambia el cursor a "mover" */
+  position: absolute;     /* Permite moverlo */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombrita */
+  left: 60%;               /* Posición desde la izquierda */
+  top: 1900px;             /* Posición desde arriba */
+
+    }
+
+     .contenedor_sato img.img3{               /* Posición desde la izquierda */
+  top: 1880px;             /* Posición desde arriba */
+  width: 600px;
+  height: 500px;
+  display: block;
+  position: absolute;         /* Para poder moverlo */
+  left: 50px;               /* Posición desde la izquierda */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+  }
+
+  .contenedor_sato h1{
+      margin-top: 20px;    /* Separación desde la parte superior */
+      font-family: Arial, sans-serif; /* Tipo de letra */
+    font-size: 36px;               /* Tamaño */
+    color:white;                /* Color del texto */
+    text-align: center;            /* Centrado */
+    text-transform: uppercase;     /* Convierte a mayúsculas */
+    letter-spacing: 2px;           /* Espacio entre letras */
+    
+    color:white rgb(6, 6, 6);
+  }
+
+    
+
+
+
+   
+
+    .sub_caja1 img {
+        width: 100%;
+        height: 100%;
+      display: block;
+      margin: 30px auto; /* Centrar la imagen */
+      
+    }
+
+     .sub_caja2 {
+      margin-top: 155px;    /* Separación desde la parte superior */
+      width: 60%;               /* Ancho */
+      height: 365px;              /* Alto */
+      border: 3px solid #e74634b4;  /* Borde de color azul */
+      border-radius: 10px;        /* Bordes redondeados */
+      background-color:  darkblue;     /* Fondo blanco */
+      position: absolute;         /* Para poder moverlo */
+      top: 50px;                  /* Distancia desde arriba */
+      left: 470px;                 /* Distancia desde la izquierda */
+    }
+
+
+    /*introduccion*/
+    .espacio_1 {
+        background-color: #1c3b58;
+        margin-top: 120px;    /* Separación desde la parte superior */
+         width: 100%;               /* Ancho */
+        height: 365px;              /* Alto */ 
+
+    }
+
+
+    .espacio_1 h1{
+      font-size: 28px;       /* Tamaño de la letra */
+      background:transparent;   /* Fondo del h3 */
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+      color: white;           /* Color del texto */
+      padding: 10px;         /* Espaciado interno */
+      border-radius: 8px;    /* Bordes redondeados */
+      text-align: center;    /* Centrar texto */
+      width: fit-content;    /* Ajusta al texto */
+      cursor: move;          /* Cambia el cursor a "mover" */
+      position: absolute;    /* Permite moverlo */
+      top: 160px;             /* Posición desde arriba */
+      left: 54%;           /* Posición desde la izquierda */
+    }
+    
+    .espacio_1 p {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+  font-size: 18px;        /* Tamaño de la letra */
+  color: white;           /* Color del texto */
+  line-height: 1.6;       /* Espaciado entre líneas */
+  background: transparent;/* Fondo transparente */
+  padding: 12px;          /* Espaciado interno */
+  border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+  border-radius: 6px;     /* Bordes redondeados */
+  max-width: 400px;       /* Ancho máximo */
+  cursor: move;           /* Cambia el cursor a "mover" */
+  position: absolute;     /* Permite moverlo */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombrita */
+  left: 5%;               /* Posición desde la izquierda */
+  top: 280px;             /* Posición desde arriba */
+  
+}
+
+  .espacio_1_sobre_mi p {
+  background-color: #1c3b58;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra al texto para hacerlo legible */
+  font-size: 18px;        /* Tamaño de la letra */
+  color: white;           /* Color del texto */
+  line-height: 1.6;       /* Espaciado entre líneas */
+  background: transparent;/* Fondo transparente */
+  padding: 12px;          /* Espaciado interno */
+  border-left: 5px solid #3498db; /* Línea decorativa a la izquierda */
+  border-radius: 6px;     /* Bordes redondeados */
+  max-width: 600px;       /* Ancho máximo */
+  cursor: move;           /* Cambia el cursor a "mover" */
+  position: absolute;     /* Permite moverlo */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombrita */
+  left: 52%;               /* Posición desde la izquierda */
+  top: 280px;             /* Posición desde arriba */
+  
+}
+
+.titulo_espacio_1_sobre_mi h2{
+    margin-top: 120px;    /* Separación desde la parte superior */
+      font-family: Arial, sans-serif; /* Tipo de letra */
+    font-size: 32px;               /* Tamaño */
+    color: #2c3e50;                /* Color del texto */
+    text-align: center;            /* Centrado */
+    text-transform: uppercase;     /* Convierte a mayúsculas */
+    letter-spacing: 2px;           /* Espacio entre letras */
+    
+    color: rgb(6, 6, 6);
+  color: white;
+}
+
+.titulo_espacio_1_sobre_mi img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  position: absolute;         /* Para poder moverlo */
+  left: 90px;               /* Posición desde la izquierda */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+}
+
+#p2 {
+    top: 900px; left: 60%;
+}
+
+
+    .espacio_1 img {
+
+    width: auto;          /* Mantiene proporción */
+    width: 100%;               /* Ancho */
+
+    }
+
+    .pie {
+      position: relative; /* Para que el footer se ubique dentro */
+      width: 100%;
+      height: 280px;
+      background: yellow no-repeat center center;
+      background-size: cover;
+      overflow: hidden;
+      top: 33px;
+      
+    }
+
+    /* Footer flotante */
+    .footer {
+      height: 200px;
+      top:20px; 
+      left:10%; 
+      position: absolute;
+      bottom: 100px;         /* Siempre abajo */
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.6); /* Fondo negro transparente */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 16px;
+      z-index: 2; /* Asegura que esté encima de la imagen */
+    }
+
+    .pie_segundo{
+      position: relative; /* Para que el footer se ubique dentro */
+      width: 100%;
+      height: 280px;
+      background: yellow no-repeat center center;
+      background-size: cover;
+      overflow: hidden;
+      top: 600px;
+      
+    }
+
+    .pie_2{
+      position: relative; /* Para que el footer se ubique dentro */
+      width: 100%;
+      height: 280px;
+      background: yellow no-repeat center center;
+      background-size: cover;
+      overflow: hidden;
+      top: 2800px;
+      
+    }
