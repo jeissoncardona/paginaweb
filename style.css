@@ -10,7 +10,7 @@ body {
       font-family: Arial, sans-serif;
     }
 body 
-     .body_sato {
+     .contenedor_sato {
          backgroud-image:  url ("img/fondo_lp.jpg")
 
          margin: 0;
@@ -380,6 +380,7 @@ body
       
 
     }
+
 
 
 
