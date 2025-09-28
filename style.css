@@ -12,6 +12,11 @@ body {
 body 
      .contenedor_sato {
          backgroud-image:  url ("img/fondo_lp.jpg")
+         backgroud-size:cover;
+         backgroud-position:center;
+         backgroud-repeat:no-repeat;
+
+         
 
          margin: 0;
          font-family: Arial, sans-serif;
@@ -380,6 +385,7 @@ body
       
 
     }
+
 
 
 
